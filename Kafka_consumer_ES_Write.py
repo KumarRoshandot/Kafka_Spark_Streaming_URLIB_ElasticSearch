@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from json import loads
-from Spark_Streaming_Progs.Structured_Stream.API_URL import api_url
+from API_URL import api_url
 from pyspark.sql.functions import to_json, struct, col
 
 
