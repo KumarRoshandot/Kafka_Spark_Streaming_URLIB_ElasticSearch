@@ -1,8 +1,8 @@
 from time import sleep
 from json import dumps
 from kafka import KafkaProducer
-from Spark_Streaming_Progs.Structured_Stream.Get_api_data import get_api
-from Spark_Streaming_Progs.Structured_Stream.API_URL import api_url
+from Get_api_data import get_api
+from API_URL import api_url
 
 def connect_kafka():
     # topic name and API info
