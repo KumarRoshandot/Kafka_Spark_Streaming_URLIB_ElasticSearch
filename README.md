@@ -23,8 +23,8 @@ This is a Use Case done for integration of Kafka with Spark Streaming
 2)  Run kafka_producer.py in one terminal or in some Editor( Pycharm)
 3)  The Kafka Producer has started runnning and it will send the data from world clock API to localhost:9092
 4)  Then to consume that data and do something with it then we have to run Consumer side code .
-      --> Kafka_consumer_ES_Write.py ( Spark Streaming will consume, Here Data will be converted to DataFrames and Write data to MongoDB)
-       -> kafka_consumer.py ( This is Kafka Util , which u can consume data and write Python code to Write it anywhere , the data will be a python Object )
+-   kafka_consumer_ES_Write.py ( Spark Streaming will consume, Here Data will be converted to DataFrames and Write data to MongoDB)
+-   kafka_consumer.py ( This is Kafka Util , which u can consume data and write Python code to Write it anywhere , the data will be a python Object )
 	  
 	  
 ---
