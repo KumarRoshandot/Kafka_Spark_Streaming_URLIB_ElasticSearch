@@ -1,5 +1,7 @@
 # Kafka_Spark_Streaming_Usecase
-This is a Use Case done for integration of Kafka with Spark Streaming
+- This is a Use Case done for integration of Kafka with Spark Streaming
+- Build Kafka Producer Homemade fetching Data from API (URLLIB).
+- Build Consumer as Spark Streaming, Do something with data and write it to ElasticSearch
 
 ---
 ## Requirement Flow
